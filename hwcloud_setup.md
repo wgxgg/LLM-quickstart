@@ -39,7 +39,7 @@ https://www.nvidia.com.tw/Download/index.aspx?lang=tw
 
 ### 快捷通道
 步骤三至步骤五，可使用本人制作的镜像
-`Ubuntu 22.04 server 64bit with Tesla Driver 535.154.05 and Cuda 12.3`
+`Ubuntu 22.04 server 64bit with Tesla Driver 535.154.05 and Cuda 12.2`
 
 使用“拉美-墨西哥城二”区的tx，需要镜像的，可以按照[该文档](https://support.huaweicloud.com/usermanual-ims/zh-cn_topic_0032042418.html)，拿到自己对应“拉美-墨西哥城二”的“项目ID”后发给我（wx: xixiao）。
 
