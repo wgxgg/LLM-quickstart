@@ -23,7 +23,7 @@
 ![image](https://github.com/wgxgg/LLM-quickstart/assets/157986938/aa224b1e-f663-4463-a065-bf9e5a00b110)
 
 ### 三. 升级Ubuntu 到 20 或 22  
-以原版本16为例，升级到20，需要两次。因为Ubuntu 的官方升级工具，每次执行只能升级到下一个LTS 版本，不允许跨LTS 版本升级。
+以原版本16为例，升级到20，需要两次；升级到22，则需要三次。因为Ubuntu 的官方升级工具，每次执行只能升级到下一个LTS 版本，不允许跨LTS 版本升级。
 
 ### 四. 安装T4 显卡的最新驱动 
 最新版本（截至2024-01-29）的驱动下载链接是： https://us.download.nvidia.com/tesla/535.154.05/NVIDIA-Linux-x86_64-535.154.05.run  
@@ -35,6 +35,7 @@ https://www.nvidia.com.tw/Download/index.aspx?lang=tw
 ### 五. 安装CUDA 12.2  
 
 下载和安装
+https://developer.nvidia.com/cuda-12-2-0-download-archive?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=22.04&target_type=deb_local
 <img width="1020" alt="image" src="https://github.com/wgxgg/LLM-quickstart/assets/157986938/3c580a8d-66dd-44a3-b667-c31372381541">
 
 ### 快捷通道
