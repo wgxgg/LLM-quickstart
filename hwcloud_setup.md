@@ -1,5 +1,9 @@
 # 华为云ECS 设置
 
+- 购买和设置
+- 使用
+
+
 ## 购买和设置
 ### 一. 购买华为云ECS  
 
@@ -7,12 +11,16 @@
 2. 区域：拉美-墨西哥城二
 3. 实例类型：GPU加速型pi2
 4. 镜像选择：Ubuntu with Tesla Driver and Cuda
-<img width="648" alt="image" src="https://github.com/wgxgg/LLM-quickstart/assets/157986938/02bae645-b2dd-4825-887e-488d7c3ddaf6">
-
 （本区目前只有16，其它拉美区好像有18）
+4. 系统盘：SSD 500GB（老师建议）
+
+![image](https://github.com/wgxgg/LLM-quickstart/assets/157986938/cee27926-d1ef-4156-bd30-4a58a74c077b)
+
 
 ### 二. 开通弹性公网IP，绑定到ECS 实例  
 否则ECS 实例不仅无法被外网访问（Jupyter 和SSH 所需），也无法访问外网（下载驱动和模型、拉取和推送代码所需）
+
+![image](https://github.com/wgxgg/LLM-quickstart/assets/157986938/aa224b1e-f663-4463-a065-bf9e5a00b110)
 
 ### 三. 升级Ubuntu 到 20 或 22  
 以原版本16为例，升级到20，需要两次。因为Ubuntu 的官方升级工具，每次执行只能升级到下一个LTS 版本，不允许跨LTS 版本升级。
