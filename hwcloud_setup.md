@@ -46,12 +46,12 @@ https://www.nvidia.com.tw/Download/index.aspx?lang=tw
 如果使用的是其它区，暂不支持镜像共享。
 
 镜像说明：
-1. ~/LLM-quickstart 是已pull好的项目目录，已经移除了 git remote，
+1. `~/LLM-quickstart` 是已pull好的项目目录，已经移除了 git remote，
 添加自己的remote 即可
 2. 使用 pyenv 设置了Python 的全局版本为 3.11.7
 3. 项目使用的virtualenv 可通过 `pyenv activate venv-3.11.7` 激活。项目所需的依赖已安装在该virtualenv 中（by pip）
 4. Jupyter Lab 已安装（global）
-5. 磁盘快满了。~/目录下有些下载的显卡驱动和CUDA Tookit的文件，以及练习时，选了一些较大的模型，可以手动删除。  
+5. 磁盘快满了。`~/` 目录下有些下载的显卡驱动和CUDA Tookit的文件，以及练习时，选了一些较大的模型，可以手动删除。  
 附上扩容的命令： https://support.huaweicloud.com/usermanual-evs/evs_01_0072.html （同学@大伟 提供）
 
 ## 使用
