@@ -32,10 +32,13 @@
 https://www.nvidia.com.tw/Download/index.aspx?lang=tw
 ![image](https://github.com/wgxgg/LLM-quickstart/assets/157986938/8671e9cc-b264-47ac-88bb-7cbb068e7021)
 
-另一种简便的安装方式是：
+安装步骤：
+https://cloud.tencent.com/document/product/560/8048
+
+另一种简便的[安装方式](https://askubuntu.com/a/1288405)是：
 `sudo apt install nvidia-driver-535`
 （本人未验证）
-https://askubuntu.com/a/1288405
+
 
 ### 五. 安装CUDA 12.2  
 
