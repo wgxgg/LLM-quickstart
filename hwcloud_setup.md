@@ -41,14 +41,14 @@ https://www.nvidia.com.tw/Download/index.aspx?lang=tw
 步骤三至步骤五，可使用本人制作的镜像
 `Ubuntu 22.04 server 64bit with Tesla Driver 535.154.05 and Cuda 12.2`
 
-使用“拉美-墨西哥城二”区的tx，需要镜像的，可以按照[该文档](https://support.huaweicloud.com/usermanual-ims/zh-cn_topic_0032042418.html)，拿到自己对应“拉美-墨西哥城二”的“项目ID”后发给我（wx: xixiao）。
+使用“拉美-墨西哥城二”区的tx，如需使用该镜像，可以按照[该文档](https://support.huaweicloud.com/usermanual-ims/zh-cn_topic_0032042418.html)，拿到自己对应“拉美-墨西哥城二”的“项目ID”后发给我（wx: xixiao）。
 
 如果使用的是其它区，暂不支持镜像共享。
 
-镜像说明：
+#### 镜像说明：
 1. `~/LLM-quickstart` 是项目目录。提交代码前，先绑定你自己的git repo: `git remote add origin <your repo url>`
 2. 使用 pyenv 设置了Python 的全局版本为 3.11.7
-3. 项目使用的virtualenv 可通过 `pyenv activate venv-3.11.7` 激活。项目所需的依赖已安装在该virtualenv 中（by pip）
+3. 项目使用的virtualenv 可通过 `pyenv activate venv-3.11.7` 激活。项目所需的依赖已安装在该virtualenv 中（by `pip install -r requirement.txt`）
 4. Jupyter Lab 已安装（global）
 5. 磁盘快满了。`~/` 目录下有些下载的显卡驱动和CUDA Tookit的文件，以及练习时，选了一些较大的模型，可以手动删除。  
 附上扩容的命令： https://support.huaweicloud.com/usermanual-evs/evs_01_0072.html （同学@大伟 提供）
