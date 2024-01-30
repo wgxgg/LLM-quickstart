@@ -21,16 +21,13 @@
 最新版本（截至2024-01-29）的驱动下载链接是： https://us.download.nvidia.com/tesla/535.154.05/NVIDIA-Linux-x86_64-535.154.05.run  
 
 地址可在官网页面自行获取：  
+https://www.nvidia.com.tw/Download/index.aspx?lang=tw
 ![image](https://github.com/wgxgg/LLM-quickstart/assets/157986938/8671e9cc-b264-47ac-88bb-7cbb068e7021)
 
-### 五. 安装CUDA 最新版本  
+### 五. 安装CUDA 12.2  
 
-<img width="743" alt="image" src="https://github.com/wgxgg/LLM-quickstart/assets/157986938/9e6790d2-4cf0-4b5c-b247-c103d6a08512">
-
-按顺序安装Base Installer 和 Driver Installer。
-
-注意：红线处的版本号，需替换为第四步中显卡驱动的版本号，如`535.154.05`。详见：https://docs.nvidia.com/cuda/cuda-installation-guide-linux/#ubuntu
-
+下载和安装
+<img width="1072" alt="image" src="https://github.com/wgxgg/LLM-quickstart/assets/157986938/bbdbecd8-1155-4f15-9713-0fed4091c866">
 
 ### 快捷通道
 步骤三至步骤五，可使用本人制作的镜像
