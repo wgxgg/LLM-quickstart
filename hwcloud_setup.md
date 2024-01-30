@@ -27,7 +27,7 @@ https://www.nvidia.com.tw/Download/index.aspx?lang=tw
 ### 五. 安装CUDA 12.2  
 
 下载和安装
-<img width="1072" alt="image" src="https://github.com/wgxgg/LLM-quickstart/assets/157986938/bbdbecd8-1155-4f15-9713-0fed4091c866">
+<img width="1020" alt="image" src="https://github.com/wgxgg/LLM-quickstart/assets/157986938/3c580a8d-66dd-44a3-b667-c31372381541">
 
 ### 快捷通道
 步骤三至步骤五，可使用本人制作的镜像
