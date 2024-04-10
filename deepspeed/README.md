@@ -51,7 +51,7 @@ TORCH_CUDA_ARCH_LIST="8.9" DS_BUILD_CPU_ADAM=1 DS_BUILD_UTILS=1 pip install . \
 --disable-pip-version-check 2>&1 | tee build.log
 ```
 
-**注意：不要在项目内 clone DeepSpeed 源代码安装，容易造成误提交。**
+**注意：不要在本项目目录下 clone DeepSpeed 源代码安装，容易造成误提交。**
 
 ### 使用 DeepSpeed 训练 T5 系列模型
 
