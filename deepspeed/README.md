@@ -36,6 +36,11 @@ conda create -n deepspeed --clone base
 pip install git+https://github.com/huggingface/transformers
 ```
 
+### 安装 Rust 编译器（maturin 需要）
+```bash
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
 ### 源代码安装 DeepSpeed
 
 根据你的 GPU 实际情况设置参数 `TORCH_CUDA_ARCH_LIST`。NVIDIA Tesla T4 GPU 的计算能力（Compute Capability）是 7.5。NVIDIA GeForce RTX 4090 使用的是 NVIDIA 的最新Ampere 架构，其具体的计算能力（Compute Capability）为 8.9。
