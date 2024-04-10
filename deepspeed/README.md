@@ -1,6 +1,6 @@
 # DeepSpeed 框架安装指南
 
-## 更新 GCC 和 G++ 版本（如需）
+## 更新 GCC 和 G++ 版本（如需。Ubuntu 22.04 中，gcc/g++的版本已经高于7，为11.4.0，需跳过该步骤！）
 
 首先，添加必要的 PPA 仓库，然后更新 `gcc` 和 `g++`：
 
@@ -38,13 +38,15 @@ pip install git+https://github.com/huggingface/transformers
 
 ### 源代码安装 DeepSpeed
 
-根据你的 GPU 实际情况设置参数 `TORCH_CUDA_ARCH_LIST`。如果你需要使用 CPU Offload 优化器参数，设置参数 `DS_BUILD_CPU_ADAM=1`；如果你需要使用 NVMe Offload，设置参数 `DS_BUILD_UTILS=1`：
+根据你的 GPU 实际情况设置参数 `TORCH_CUDA_ARCH_LIST`。NVIDIA Tesla T4 GPU 的计算能力（Compute Capability）是 7.5。NVIDIA GeForce RTX 4090 使用的是 NVIDIA 的最新Ampere 架构，其具体的计算能力（Compute Capability）为 8.9。
+
+如果你需要使用 CPU Offload 优化器参数，设置参数 `DS_BUILD_CPU_ADAM=1`；如果你需要使用 NVMe Offload，设置参数 `DS_BUILD_UTILS=1`：
 
 ```bash
 git clone https://github.com/microsoft/DeepSpeed/
 cd DeepSpeed
 rm -rf build
-TORCH_CUDA_ARCH_LIST="7.5" DS_BUILD_CPU_ADAM=1 DS_BUILD_UTILS=1 pip install . \
+TORCH_CUDA_ARCH_LIST="8.9" DS_BUILD_CPU_ADAM=1 DS_BUILD_UTILS=1 pip install . \
 --global-option="build_ext" --global-option="-j8" --no-cache -v \
 --disable-pip-version-check 2>&1 | tee build.log
 ```
