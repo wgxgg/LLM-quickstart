@@ -5,6 +5,7 @@
 首先，添加必要的 PPA 仓库，然后更新 `gcc` 和 `g++`：
 
 ```bash
+sudo apt install software-properties-common
 sudo add-apt-repository ppa:ubuntu-toolchain-r/test
 sudo apt update
 sudo apt install gcc-7 g++-7
