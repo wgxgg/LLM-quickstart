@@ -40,6 +40,10 @@ pip install git+https://github.com/huggingface/transformers
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
+安装 Rust 编译器后，确保它在 PATH 环境变量中
+```bash
+source ~/.bashrc
+```
 
 ### 源代码安装 DeepSpeed
 
